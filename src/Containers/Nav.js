@@ -10,16 +10,16 @@ function Nav({ state }) {
         <div className='navList'>
           <ul>
             <li>
-              <a href='/'>Home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li>
-              <a href={CV}>Download_CV</a>
+              <Link to={CV}>Download_CV</Link>
             </li>
             <li>
-              <a href='/certifications'>Certificates</a>
+              <Link to='/certifications'>Certificates</Link>
             </li>
             <li>
-              <a href='/contact'>Contact</a>
+              <Link to='/contact'>Contact</Link>
             </li>
           </ul>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CV from '../Components/CV_Web_Developer_Nisha_Shukla.pdf';
+import Profile from './Nisha_Profile_Img.jpg';
 
 function Nav({ state }) {
   return (
@@ -23,7 +24,7 @@ function Nav({ state }) {
           </ul>
         </div>
 
-        <img src='../images/Nisha_Profile_Img.jpg' alt='profile' />
+        <img src={Profile} alt='profile' />
 
         <h3>Projects</h3>
         <br />

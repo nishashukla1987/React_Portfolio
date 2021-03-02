@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import CV from '../Components/CV_Web_Developer_Nisha_Shukla.pdf';
-
+import CV from '../Components/CV_Web_Developer_Nisha_Shukla.pdf';
 import Profile from './Nisha_Profile_Img.jpg';
 
 function Nav({ state }) {
@@ -14,7 +13,7 @@ function Nav({ state }) {
               <Link to='/'>Home</Link>
             </li>
             <li>
-              <Link to='./CV_Web_Developer_Nisha_Shukla.pdf'>Download_CV</Link>
+              <a href={CV}>Download_CV</a>
             </li>
             <li>
               <Link to='/certifications'>Certificates</Link>

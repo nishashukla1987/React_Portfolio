@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.eb945834.chunk.css",
+    "main.css": "/React_Portfolio/static/css/main.d183e888.chunk.css",
     "main.js": "/React_Portfolio/static/js/main.27414cd5.chunk.js",
     "main.js.map": "/React_Portfolio/static/js/main.27414cd5.chunk.js.map",
     "runtime-main.js": "/React_Portfolio/static/js/runtime-main.a1af8ed8.js",
@@ -8,7 +8,7 @@
     "static/js/2.923a4b96.chunk.js": "/React_Portfolio/static/js/2.923a4b96.chunk.js",
     "static/js/2.923a4b96.chunk.js.map": "/React_Portfolio/static/js/2.923a4b96.chunk.js.map",
     "index.html": "/React_Portfolio/index.html",
-    "static/css/main.eb945834.chunk.css.map": "/React_Portfolio/static/css/main.eb945834.chunk.css.map",
+    "static/css/main.d183e888.chunk.css.map": "/React_Portfolio/static/css/main.d183e888.chunk.css.map",
     "static/js/2.923a4b96.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.923a4b96.chunk.js.LICENSE.txt",
     "static/media/CV_Web_Developer_Nisha_Shukla.452e7cb9.pdf": "/React_Portfolio/static/media/CV_Web_Developer_Nisha_Shukla.452e7cb9.pdf",
     "static/media/Nisha_Profile_Img.f71244a8.jpg": "/React_Portfolio/static/media/Nisha_Profile_Img.f71244a8.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.a1af8ed8.js",
     "static/js/2.923a4b96.chunk.js",
-    "static/css/main.eb945834.chunk.css",
+    "static/css/main.d183e888.chunk.css",
     "static/js/main.27414cd5.chunk.js"
   ]
 }

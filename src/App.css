@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.nameWrapper {
+  margin: auto;
+}
+
+.name {
+  text-align: center;
+  margin: 0 auto 20px;
+  padding: 40px 0;
+  border-bottom: 0.5px solid rgb(105, 105, 105);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-areas: 'main nav';
+}
+
+.container .mainWrapper {
+  width: 600px;
+  grid-area: main;
+}
+.container .mainWrapper .view {
+  width: 500px;
+  margin-left: 30px;
+}
+
+.container .mainWrapper .view img {
+  width: 100%;
+  border: 2px solid black;
+  object-fit: contain;
+}
+
+.container .mainWrapper .view .view-title {
+  margin-bottom: 40px;
+}
+
+.container .mainWrapper .view .view-description {
+  line-height: 25px;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.container .mainWrapper .view .view-tags {
+  line-height: 25px;
+  font-size: 16px;
+  margin: 20px 20px 30px 0;
+}
+.container .mainWrapper .view .view-buttons {
+  text-align: right;
+}
+
+.container .mainWrapper .view .view-buttons a {
+  text-decoration: none;
+  padding: 10px 25px;
+  border: 0.5px solid rgb(105, 105, 105);
+  margin-left: 15px;
+}
+
+.container .mainWrapper .view .view-buttons a:hover {
+  border: none;
+  color: #fff;
+  background-color: #000;
+}
+
+@media screen and (max-width: 450px) {
+  .name {
+    margin-left: 20px;
+    padding: 30px 0;
+    font-size: 20px;
+  }
+  .container {
+    max-width: 500px;
+    grid-template-areas: 'nav' 'main';
+    justify-items: center;
+  }
+
+  .container .mainWrapper {
+    margin: 20px auto;
+    width: 300px;
+  }
+
+  .container .mainWrapper .view .view-title {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .container .mainWrapper .view .view-description {
+    width: 50%;
+    line-height: 15px;
+    font-size: 10px;
+    margin: 5px 0;
+  }
+  .container .mainWrapper .view img {
+    width: 50%;
+    border: 2px solid black;
+    object-fit: contain;
+  }
+
+  .container .mainWrapper .view .view-tags {
+    width: 50%;
+    line-height: 15px;
+    font-size: 10px;
+    margin: 10px 10px 15px 0;
+  }
+  .container .mainWrapper .view .view-buttons {
+    width: 50%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .container .mainWrapper .view .view-buttons a {
+    text-decoration: none;
+    padding: 7.5px 10px;
+    border: 0.5px solid rgb(105, 105, 105);
+    font-size: 10px;
+  }
+
+  .container .mainWrapper .view .view-buttons a:hover {
+    border: none;
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+.container .navWrapper {
+  width: 400px;
+  grid-area: nav;
+}
+.container .navWrapper .nav img {
+  width: 30%;
+  margin: 20px auto;
+}
+.container .navWrapper .nav ul {
+  list-style: none;
+  margin: 10px 0 10 0;
+}
+
+.container .navWrapper .nav ul li {
+  margin: 0 5px 10px 0;
+}
+
+.container .navWrapper .nav .navList ul {
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+.container .navWrapper .nav a {
+  text-decoration: none;
+  margin: 20px auto;
+  color: #000;
+}
+
+@media screen and (max-width: 450px) {
+  .container .navWrapper {
+    width: 200px;
+  }
+  .container .navWrapper .nav img {
+    width: 40%;
+  }
+
+  .container .navWrapper .nav ul li {
+    font-size: 10px;
+  }
+
+  .container .navWrapper .nav .navList ul {
+    font-weight: 600;
+  }
+}

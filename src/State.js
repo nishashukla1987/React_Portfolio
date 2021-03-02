@@ -1,0 +1,55 @@
+export const InitialState = [
+  {
+    id: 1,
+    title: 'StockTradingGame',
+    description: 'A stock trading  simulator app built with vanilla JavaScript',
+    image: './images/StockTrading.png',
+    url: 'https://nishashukla1987.github.io/StockTradingGame/',
+    code: 'https://github.com/nishashukla1987/StockTradingGame',
+    tags: ['JavaScript, ', 'Rest API, ', 'Bootstrap, ', 'HTML, ', 'CSS, '],
+  },
+  {
+    id: 2,
+    title: 'JavaScript-Pong',
+    description: 'The classic Pong game',
+    image: './images/PongGame.png',
+    url: 'https://nishashukla1987.github.io/javascript-Pong/',
+    code: 'https://github.com/nishashukla1987/javascript-Pong',
+    tags: ['JavaScript, ', 'HTML, ', 'CSS, '],
+  },
+  {
+    id: 3,
+    title: 'React WikiRecipe',
+    description: 'A React project inspired from Wikipedia.',
+    image: './images/wikiRecipe.png',
+    url: 'https://nishashukla1987.github.io/wiki_React/',
+    code: 'https://github.com/nishashukla1987/wiki_React',
+    tags: ['React, ', 'JavaScript, ', 'HTML, ', 'CSS, '],
+  },
+  {
+    id: 4,
+    title: 'Redux_SocialMedia',
+    description:
+      'A social media project  inspired by Facebook built with React,Redux.',
+    image: './images/SocialMedia.png',
+    url: null,
+    code: 'https://github.com/nishashukla1987/Redux_SocialMedia',
+    tags: [
+      'React, ',
+      'Redux, ',
+      'MaterialUI, ',
+      'HTML, ',
+      'CSS, ',
+      'JavaScript, ',
+    ],
+  },
+  {
+    id: 5,
+    title: 'i-Sass Project',
+    description:
+      'This Project a 1:1 clone of TradeConnect landing page as of July 2020 for the sake of mastering the Sass language ',
+    image: './images/i-Sass.png',
+    url: ' https://nishashukla1987.github.io/i-Sass-Project/',
+    code: 'https://github.com/nishashukla1987/i-Sass-Project',
+  },
+];

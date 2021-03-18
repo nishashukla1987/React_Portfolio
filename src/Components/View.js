@@ -9,7 +9,7 @@ function View({ state }) {
 
   return (
     <div className='view'>
-      <h1 className='view-title'>{project.title}</h1>
+      <h2 className='view-title'>{project.title}</h2>
 
       <img src={project.image} alt={project.title} />
 

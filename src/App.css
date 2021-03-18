@@ -71,7 +71,7 @@
   background-color: #000;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .name {
     margin-left: 20px;
     padding: 30px 0;
@@ -85,30 +85,30 @@
 
   .container .mainWrapper {
     margin: 20px auto;
-    width: 300px;
+    width: 400px;
   }
 
   .container .mainWrapper .view .view-title {
-    margin-bottom: 10px;
-    font-size: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
   }
 
   .container .mainWrapper .view .view-description {
-    width: 50%;
-    line-height: 15px;
-    font-size: 10px;
+    width: 90%;
+    line-height: 25px;
+    font-size: 15px;
     margin: 5px 0;
   }
   .container .mainWrapper .view img {
-    width: 50%;
+    width: 90%;
     border: 2px solid black;
     object-fit: contain;
   }
 
   .container .mainWrapper .view .view-tags {
-    width: 50%;
-    line-height: 15px;
-    font-size: 10px;
+    width: 90%;
+    line-height: 25px;
+    font-size: 15px;
     margin: 10px 10px 15px 0;
   }
   .container .mainWrapper .view .view-buttons {
@@ -150,7 +150,7 @@
 
 .container .navWrapper .nav .navList ul {
   display: flex;
-  font-size: 20px;
+
   font-weight: 600;
   color: black;
 }
@@ -161,19 +161,19 @@
   color: #000;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .container .navWrapper {
-    width: 200px;
+    width: 300px;
   }
   .container .navWrapper .nav img {
-    width: 40%;
+    width: 30%;
   }
 
   .container .navWrapper .nav ul li {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .container .navWrapper .nav .navList ul {
-    font-weight: 600;
+    font-weight: 800;
   }
 }

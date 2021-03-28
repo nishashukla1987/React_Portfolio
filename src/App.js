@@ -21,9 +21,7 @@ function App() {
           <Main state={state} />
         </div>
 
-        <div className='navWrapper'>
-          <Nav state={state} />
-        </div>
+        <Nav state={state} />
       </div>
     </div>
   );

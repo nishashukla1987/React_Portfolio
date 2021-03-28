@@ -18,7 +18,9 @@ function View({ state }) {
       </div>
 
       <div className='view-tags'>
-        <p>Technologies: {project.tags}</p>
+        <p>
+          <strong>Technologies</strong>: {project.tags}
+        </p>
       </div>
 
       <div className='view-buttons'>

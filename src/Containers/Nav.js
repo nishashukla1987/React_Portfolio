@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import CV from '../Components/CV_WebDeveloper_Nisha_Shukla.pdf';
+import CV from '../Components/Nisha_Shukla_CV.pdf';
 import Profile from './Nisha_Profile_Img.jpg';
 
 function Nav({ state }) {

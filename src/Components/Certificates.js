@@ -6,6 +6,17 @@ function Certificates() {
       <h1 className='view-title'>Certificates</h1>
       <div className='view-description'>
         <h4>
+          Your complete guide to Agile, Scrum, Kanban
+          <a
+            href='https://www.udemy.com/certificate/UC-7992ce19-cbee-41fb-b695-a1a3032c8183/'
+            target='_blank'
+          >
+            : See Credentials
+          </a>
+        </h4>
+        <br />
+
+        <h4>
           The Complete Front-End Web Development Course
           <a
             href='https://www.udemy.com/certificate/UC-9c0ebeb2-8358-49d8-baa1-823ba50fb2c5/'

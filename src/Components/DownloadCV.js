@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from './CV_WebDeveloper_Nisha_Shukla.pdf';
+import CV from './Nisha_Shukla_CV.pdf';
 
 function DownloadCV() {
   return <div>{CV}</div>;
